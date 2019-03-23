@@ -1,0 +1,123 @@
+/* Oi, eu sou um coment[ario em CSS */
+
+/* ESTILOS GERAIS */
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+    }
+    
+a {
+    text-decoration: none;
+}  /* BANNER - se eu criei a classe e .class e eu quero deficinir algo pra tudo, [e s[o a tag */
+
+    .banner{
+        background: url(../img/banner4.png);
+        background-size: cover;
+        height:  560px;
+        color: white;
+        text-align: center;
+    }
+
+    .banner_conteudo {
+        padding: 260px;
+        
+    }
+
+    .banner_titulo {
+        font-size: 50px;
+    }
+
+    .banner_subtitulo {
+        font-size: 30px;
+    }
+    
+    .banner_link {
+        color: #439775;
+        background-color: white;
+          
+        
+    }
+
+    .botao{
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+   
+
+/* MINHAS MARGENS */
+
+    .container {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+ 
+    /* SOBRE MIM */
+
+    .sobre_titulo {
+        font-size: 40px;
+        color: #1E3231;
+    }
+    
+    .sobre_descricao-principal{
+        font-size: 40px;
+
+    }
+
+    .sobre {
+        display: flex;
+        
+    }
+
+    .sobre_descricao, .sobre_habilidades {
+        width: 49%;
+        line-height: 30px;
+    }
+    .sobre_descricao-principal, .sobre_descricao-secundaria, .sobre_habilidades-titulo {
+        font-size: 25px;
+    }
+
+    .sobre_habilidades {
+        margin-left: 70px;
+        font-size: 22px;
+    }
+
+    .sobre_cv-link {
+        color:#439775;
+        border: 1px solid #439775;
+        
+    }
+
+    /* FOOTER */
+
+    .footer {
+        text-align: center;
+    }
+
+    .redes-sociais {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .redes-sociais_link {
+        background-color: #439775;
+        color: white;
+        font-size: 20px;
+        width: 20%;
+        padding: 20px;
+        margin: 0 15px;
+        text-align: center;
+    }
+
+    .footer_copyright-text {
+        color: rgb(80, 70, 70);
+    }
